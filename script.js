@@ -51,7 +51,7 @@ function getJson() {
 // console.log(ser)
         }
     };
-    jsn.open("GET", "from/app.json", true);
+    jsn.open("GET", "app.json", true);
     jsn.send();
 }
 
