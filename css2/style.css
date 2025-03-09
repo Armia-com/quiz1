@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.quiz-app {
+    width: 800px;
+    background-color: rgba(243, 236, 236, 0.639);
+    margin: 20px auto;
+    padding: 20px;
+}
+.quiz-info:hover{
+    background-color: rgba(23, 15, 2, 0.71);
+    color: white;
+}
+.quiz-info {
+    display: flex;
+    background-color: rgba(223, 217, 217, 0.788);
+    justify-content: space-between;
+    height: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.quiz-area {
+    text-align: center;
+}
+
+.answer-area {
+    margin-top: 10px;
+
+}
+
+.answer {
+    padding: 8px;
+    cursor: pointer;
+    background-color: rgba(153, 129, 129, 0.122);
+}
+
+.answer:not(:last-child) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.491);
+}
+
+.answer label {
+    padding: 25px;
+    cursor: pointer;
+    color: rgb(41, 38, 38);
+    position: relative;
+    font-size: 14px;
+}
+.answer:hover {
+    background-color: rgb(181, 242, 242);
+}
+.answer input[type=radio]:checked+label {
+    color: rgb(0, 0, 255);
+    cursor: pointer;
+}
+
+.button {
+    width: 100%;
+    text-align: center;
+    display: block;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 255, 0.614);
+    border-radius: 3px;
+    border: 1px solid white;
+}
+.button:hover{
+    background-color: blue;
+    outline: oldlace;
+    font-size: 25px;
+}
+.counter span {
+    /* margin-left: 50%; */
+    margin-top: 10px;
+    color: rgb(12, 0, 0);
+    font-size: 20px;
+}
+
+.bullts {
+    background-color: white;
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.spans {
+    flex: 1;
+    display: flex;
+}
+
+.bullts .spans span {
+    width: 20PX;
+    height: 20PX;
+    border-radius: 50%;
+    background-color: rgba(21, 5, 144, 0.249);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.spans span.up {
+    background-color: rgb(0, 119, 255);
+}
+
+.result span.bad {
+    font-size: large;
+    color: brown;
+}
+
+.result span .good {
+    font-size: large;
+    color: rgb(14, 228, 6);
+}
+
+.result span .perfect {
+    font-size: large;
+    color: rgb(36, 2, 137);
+}
