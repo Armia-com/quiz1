@@ -51,7 +51,7 @@ function getJson() {
 // console.log(ser)
         }
     };
-    jsn.open("GET", "http://localhost:5500/from/app.json", true);
+    jsn.open("GET", "from/app.json", true);
     jsn.send();
 }
 
